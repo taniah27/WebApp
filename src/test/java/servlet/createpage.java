@@ -26,6 +26,7 @@ public class createpage extends HttpServlet {
 			Statement statement = connection.createStatement();
 			
 			String a=req.getParameter("product");
+			
 			String b=req.getParameter("problemdescription");
 			String c=req.getParameter("contact");
 			String d=req.getParameter("date");
